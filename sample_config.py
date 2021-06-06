@@ -47,4 +47,5 @@ class Config(object):
 
     # Sql Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = DB_URI.replace("postgres://", "postgresql://", 1)
     
