@@ -30,7 +30,7 @@ class Config(object):
     SCREENSHOTS = os.environ.get("SCREENSHOTS", "True")
 
     # default thumbnail to be used in the videos
-    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://telegra.ph/Asuran-02-06")
+    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://telegra.ph/file/1af88c287a8f0aec79b3a.png")
 
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
@@ -43,7 +43,7 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
 
     # watermark file
-    DEF_WATER_MARK_FILE = "© @JAsuran"
+    DEF_WATER_MARK_FILE = "Kovinda"
 
     # Sql Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
